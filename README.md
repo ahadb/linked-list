@@ -16,9 +16,9 @@ Soon to be distributed on NPM
 ## Use
 
 ```javascript
-import SinglyLinkedList from "./singly-linked-list.js";
+import LinkedList from "./linked-list.js";
 
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 // objects as nodes
 const node1 = { value: 1, key: 'one' };
@@ -46,38 +46,38 @@ const node2 = new LinkedListNode(2);
 const node1 = new LinkedListNode(1, node2);
 ```
 
-### `SinglyLinkedList`
+### `LinkedList`
 
 Create a new Singly Linked List with no items.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 ```
 
-### `SinglyLinkedList.prepend`
+### `LinkedList.prepend`
 
 Prepend a node to your Singly Linked List.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 singlyLinkedList.prepend(2);
 ```
 
-### `SinglyLinkedList.append`
+### `LinkedList.append`
 
 Append a node to your Singly Linked List.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 singlyLinkedList.append(2);
 ```
 
-### `SinglyLinkedList.delete`
+### `LinkedList.delete`
 
 Delete a node by value anywhere in your Singly Linked List.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 singlyLinkedList.append(1);
 singlyLinkedList.append(2);
@@ -86,12 +86,12 @@ singlyLinkedList.append(3);
 singlyLinkedList.delete(3);
 ```
 
-### `SinglyLinkedList.deleteHead`
+### `LinkedList.deleteHead`
 
 Delete the head node in your Singly Linked List.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 singlyLinkedList.append(1);
 singlyLinkedList.append(2);
@@ -100,12 +100,12 @@ singlyLinkedList.append(3);
 singlyLinkedList.deleteHead();
 ```
 
-### `SinglyLinkedList.deleteTail`
+### `LinkedList.deleteTail`
 
 Delete the tail node in your Singly Linked List.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 singlyLinkedList.append(1);
 singlyLinkedList.prepend(2);
@@ -114,12 +114,12 @@ singlyLinkedList.prepend(3);
 singlyLinkedList.deleteTail();
 ```
 
-### `SinglyLinkedList.find`
+### `LinkedList.find`
 
 Find a node by value in your Singly Linked List.
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 singlyLinkedList.append(1);
 
@@ -131,12 +131,12 @@ singlyLinkedList
 singlyLinkedList.find({ value: 2 });
 ```
 
-### `SinglyLinkedList.toArray`
+### `LinkedList.toArray`
 
 Convert your Singly Linked List to an Array
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 // objects as nodes
 const node1 = { value: 1, key: 'one' };
@@ -149,12 +149,12 @@ singlyLinkedList
 singlyLinkedList.toArray()
 ```
 
-### `SinglyLinkedList.toArray`
+### `LinkedList.toString`
 
 Convert your Singly Linked List to a String
 
 ```javascript
-const singlyLinkedList = new SinglyLinkedList();
+const singlyLinkedList = new LinkedList();
 
 // objects as nodes
 const node1 = { value: 1, key: 'one' };
