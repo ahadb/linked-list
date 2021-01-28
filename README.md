@@ -11,7 +11,9 @@ should read more about them, their advantages and disadvantages, etc.
 
 ## Install
 
-Soon to be distributed on NPM
+`git clone https://github.com/ahadb/linked-list` or whatever your preferred method is
+
+To be distributed on NPM.
 
 ## Use
 
