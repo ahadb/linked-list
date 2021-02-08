@@ -11,9 +11,20 @@ should read more about them, their advantages and disadvantages, etc.
 
 ## Install
 
-`git clone https://github.com/ahadb/linked-list` or whatever your preferred method is
+`git clone https://github.com/ahadb/linked-list`, create a tarball, use directly or npm below:
 
-To be distributed on NPM.
+For now on NPM:
+
+`npm install another-linked-list`
+
+```javascript
+const list = require('another-linked-list')
+
+const myLinkedList = new list.LinkedList();
+myLinkedList.append(1);
+myLinkedList.append({ a: 1 });
+// etc
+```
 
 ## Use
 
