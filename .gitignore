@@ -27,6 +27,9 @@ build/Release
 node_modules
 package-lock.json
 
+# Project test directory (npm link)
+src/project
+
 # Remove some common IDE working directories
 .idea
 .vscode

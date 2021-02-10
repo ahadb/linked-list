@@ -1,6 +1,6 @@
 {
-  "name": "linked-list",
-  "version": "1.0.0",
+  "name": "another-linked-list",
+  "version": "1.0.1",
   "description": "Linked list in JavaScript",
   "main": "lib/linked-list.js",
   "scripts": {

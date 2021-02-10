@@ -11,25 +11,29 @@ should read more about them, their advantages and disadvantages, etc.
 
 ## Install
 
-`git clone https://github.com/ahadb/linked-list`, create a tarball, use directly or npm below:
+`git clone https://github.com/ahadb/linked-list`, create a tarball, or use directly or npm below:
 
-For now on NPM:
+NPM:
 
 `npm install another-linked-list`
 
-```javascript
-const list = require('another-linked-list')
+## Use
 
-const myLinkedList = new list.LinkedList();
-myLinkedList.append(1);
-myLinkedList.append({ a: 1 });
+Common JS:
+
+```javascript
+const LinkedList = require('another-linked-list')
+
+const singlyLinkedList = new LinkedList();
+singlyLinkedList.append(1);
+singlyLinkedList.append({ a: 1 });
 // etc
 ```
 
-## Use
+ES6 Module (UMD):
 
 ```javascript
-import LinkedList from "./linked-list.js";
+import LinkedList from 'another-linked-list';
 
 const singlyLinkedList = new LinkedList();
 
