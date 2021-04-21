@@ -1,6 +1,6 @@
 # Linked List
 
-My implementation of a singly linked list in JavaScript (singly meaning unidirectional and can be
+Implementation of a singly linked list in JavaScript (singly meaning unidirectional and can be
 traversed in only one direction)
 
 ## Why Linked Lists?
